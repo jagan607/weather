@@ -36,6 +36,7 @@ public class SettingActivity extends AppCompatActivity {
             // Load the preferences from an XML resource
             addPreferencesFromResource(R.xml.pref_general);
             bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_location_key)));
+             bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_units_key)));
 
         }
 
@@ -74,11 +75,7 @@ public class SettingActivity extends AppCompatActivity {
             return true;
         }
 
-
-
-
-
-    }
+   }
 
 }
 
