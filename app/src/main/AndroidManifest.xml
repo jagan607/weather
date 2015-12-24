@@ -38,6 +38,13 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="MainActivity" />
+                
+                
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:scheme="geo"/>
+            </intent-filter>
         </activity>
     </application>
 
